@@ -55,7 +55,7 @@ o Night (includes “Darkness – lights lit”, “Darkness – lights unlit”
 
    ## KEY FINDINGS
 
-   1. Accident Severity Distribution:
+ 1. Accident Severity Distribution:
 A year-over-year comparison between 2021 and 2022 indicates a positive
 downward trend in road accidents and related casualties. The total number of
 accidents decreased by 11.7% in 2022 compared to the previous year.
