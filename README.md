@@ -30,6 +30,7 @@ o Night (includes “Darkness – lights lit”, “Darkness – lights unlit”
 6. Total 2021 Casualties 2 = CALCULATE(SUM(Data[Number_of_Casualties]),'Table'[Year]=2021)
 7. Total 2022 casualties 1 = CALCULATE(SUM(Data[Number_of_Casualties]),'Table'[Year]=2022)
 8. Year on year Casualties = ([Total 2022 casualties 1]-[Total 2021 Casualties 2])/[Total 2021 Casualties 2]
+9. Background for the canvas is created in Powerpoint.
 
 ## Requirements
 
