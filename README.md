@@ -23,6 +23,13 @@ o Night (includes “Darkness – lights lit”, “Darkness – lights unlit”
 ## Steps Followed
 
 1. A new calendar table is created which contains the date, year, day of week.
+2. For calender table, Table = CALENDAR(MIN(Data[Accident Date]),MAX(Data[Accident Date]))
+3. For year, Year = YEAR('Table'[Date])
+4. For day in number, day = WEEKDAY('Table'[Date])
+5. Additionally, DAYS1 = FORMAT('Table'[Date],"DDDD")~ It is used for findind the Day of the week trend
+6. Total 2021 Casualties 2 = CALCULATE(SUM(Data[Number_of_Casualties]),'Table'[Year]=2021)
+7. Total 2022 casualties 1 = CALCULATE(SUM(Data[Number_of_Casualties]),'Table'[Year]=2022)
+8. Year on year Casualties = ([Total 2022 casualties 1]-[Total 2021 Casualties 2])/[Total 2021 Casualties 2]
 
 ## Requirements
 
